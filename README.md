@@ -15,3 +15,11 @@ Project requirements:
 
 - Create a tooltip that appears above navigation items when hovered
 - Only HTML and CSS (Try not to use javascript)
+
+# TODO:
+
+- Arithmetic calculator
+- tic tac toe
+- Black jack (With remaining cards)
+- Movie watchlist
+- Simon says (with sounds)
