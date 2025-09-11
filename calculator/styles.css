@@ -13,17 +13,18 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #121212;
+  color: white;
 }
 h1 {
   margin-bottom: 2.5vh;
 }
 
 #calculator {
-  border: 2px solid black;
+  border: 2px solid #ffffff;
   border-radius: 15px;
-  background-color: rgb(198, 200, 206);
-  box-shadow: 0 4px 8px #00000033;
+  background-color: #899dbb;
+  box-shadow: 0 4px 8px #f8f8f856;
 }
 
 input {
@@ -34,16 +35,18 @@ input {
   padding: 10px;
   border: none;
   border-radius: 10px;
-  margin: 2px auto;
+  margin: 2px auto 0;
+  overflow: hidden;
 }
 input:disabled {
-  background-color: #ffffff;
+  background-color: #121212;
+  color: white;
 }
 
 #buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  padding: 2vw;
+  padding: 5px 1vw 4vh;
 }
 #buttons button {
   border-radius: 50%;
@@ -65,7 +68,7 @@ input:disabled {
   border: 2px solid white;
 }
 .ops {
-  background-color: steelblue;
+  background-color: rgb(81, 177, 206);
   color: white;
   border: 2px solid #d4d4d4;
 }
