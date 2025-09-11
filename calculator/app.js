@@ -1,5 +1,6 @@
 const buttons = document.querySelectorAll(".add");
 const textField = document.getElementById("input-field");
+const evalBtn = document.getElementById("calculate");
 
 buttons.forEach((button) => {
   button.addEventListener("click", (event) => {
@@ -9,4 +10,8 @@ buttons.forEach((button) => {
     textField.value += clickedButtonValue;
     console.log(eval(textField.value));
   });
+});
+
+evalBtn.addEventListener("click", function () {
+  textField.value = eval(textField.value);
 });
