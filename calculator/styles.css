@@ -44,6 +44,7 @@ input:disabled {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 2vw;
+  transition: 0.2s;
 }
 #buttons button {
   border-radius: 50%;
