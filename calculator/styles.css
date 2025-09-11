@@ -64,3 +64,8 @@ input:disabled {
   color: white;
   border: 2px solid white;
 }
+.ops {
+  background-color: steelblue;
+  color: white;
+  border: 2px solid #d4d4d4;
+}
