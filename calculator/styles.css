@@ -44,7 +44,6 @@ input:disabled {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 2vw;
-  transition: 0.2s;
 }
 #buttons button {
   border-radius: 50%;
@@ -53,4 +52,15 @@ input:disabled {
   font-size: 2rem;
   cursor: pointer;
   margin: 2px auto;
+  transition: 0.2s;
+  box-shadow: #00000094 3px 5px 5px;
+}
+#buttons button:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
+.add {
+  background-color: darkslateblue;
+  color: white;
+  border: 2px solid white;
 }
