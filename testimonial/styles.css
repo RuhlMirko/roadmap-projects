@@ -7,30 +7,37 @@
     sans-serif;
 }
 
-.testimonial-card {
-  background: none;
+#first-row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem auto;
-  max-width: 350px;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.testimonial-card {
+  margin: 2rem;
+  display: inline-block;
+}
+
+#card1 p,
+#card2,
+#card3 div {
+  border-radius: 16px;
+  padding: 1.2rem 1.5rem;
+}
+
+#card1 p,
+#card3 div {
+  background: #222;
+  color: #fff;
+}
+
+#card2 {
+  border: 2px solid #222;
 }
 
 .testimonial-card p {
-  background: #222;
-  color: #fff;
-  padding: 1.2rem 1.5rem;
-  border-radius: 16px;
   font-size: 1.1rem;
   margin-bottom: 1.2rem;
-  text-align: left;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-}
-
-.user-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .user-info img {
@@ -38,7 +45,6 @@
   height: 70px;
   border-radius: 50%;
   margin-bottom: 0.5rem;
-  object-fit: cover;
 }
 
 .user-info h2 {
@@ -53,4 +59,25 @@
   margin: 0;
   font-weight: 400;
   color: #444;
+}
+
+#card3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+#card3 img {
+  border-radius: 16px;
+  max-height: 500px;
+  height: 30vh;
+}
+#card3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  justify-content: space-around;
+  height: 30vh;
+  padding: 1.2rem 1.5rem;
 }
