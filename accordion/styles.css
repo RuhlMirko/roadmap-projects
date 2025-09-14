@@ -7,6 +7,37 @@
     sans-serif;
 }
 
+p {
+  margin: 0.5rem 0 1.5rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 4vw;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 5vh 15vh;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  margin: 0.2rem 0;
+}
+
+.question p {
+  display: none;
+  font-weight: 500;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 0.7rem 0.8rem;
+  margin: 1vh 0;
+  min-height: 7vh;
+}
+
 a {
   color: inherit;
   font-weight: 800;
