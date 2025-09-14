@@ -20,12 +20,21 @@ body {
   padding: 5vh 15vh;
 }
 
-h2 {
+.question {
+  cursor: pointer;
+}
+
+.question h2 {
   background-color: black;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 15px;
   margin: 0.2rem 0;
+  transition: 0.2s;
+}
+
+.question h2:hover {
+  background-color: rgb(44, 44, 44);
 }
 
 .question p {
@@ -36,6 +45,7 @@ h2 {
   padding: 0.7rem 0.8rem;
   margin: 1vh 0;
   min-height: 7vh;
+  transition: 0.5s;
 }
 
 a {
