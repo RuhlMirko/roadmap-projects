@@ -38,14 +38,20 @@ body {
 }
 
 .question p {
-  display: none;
   font-weight: 500;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.3s ease;
+  margin: 0;
+}
+.question.open p {
   border: 2px solid black;
   border-radius: 15px;
   padding: 0.7rem 0.8rem;
   margin: 1vh 0;
-  min-height: 7vh;
-  transition: 0.5s;
+  max-height: 500px; /* Large enough for your content */
+  opacity: 1;
 }
 
 a {

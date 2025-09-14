@@ -1,13 +1,12 @@
 const questions = document.querySelectorAll(".question");
 
 questions.forEach((question) => {
-  question.addEventListener("click", (e) => {
+  question.addEventListener("click", () => {
     closeQuestions();
-    const targetP = e.target.parentNode.children[1];
-    targetP.style.display = "block";
+    question.classList.add("open");
   });
 });
 
 function closeQuestions() {
-  questions.forEach((q) => (q.children[1].style.display = "none"));
+  questions.forEach((q) => q.classList.remove("open"));
 }
