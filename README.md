@@ -16,6 +16,12 @@ The goal of this project is to help you understand how to use CSS for dynamic UI
 - Create a tooltip that appears above navigation items when hovered
 - Only HTML and CSS (Try not to use javascript)
 
+## Calculator
+
+### Project description:
+
+This project is not in roadmap.sh but it felt in theme with other projects. The project focuses on using eventListeners and DOM manipulation with an appealing UI.
+
 ## [Accordion](https://roadmap.sh/projects/accordion)
 
 ### Project Description:
