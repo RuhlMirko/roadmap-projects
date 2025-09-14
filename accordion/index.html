@@ -4,21 +4,93 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Accordion</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Frequently asked questions</h1>
       <p>Here are some of the Frequently asked questions</p>
     </header>
-    <section>
-      <h2>What is roadmap.sh? <span>&#x3e</span></h2>
-      <div>
-        roadmap.sh is a community effort to create learning paths, guides,
-        project ideas and other similar content to help developers grow in their
-        careers.
+    <main>
+      <div class="question">
+        <h2>What is roadmap.sh?</h2>
+        <p>
+          roadmap.sh is a community effort to create learning paths and other
+          similar content to help developers grow in their careers.
+        </p>
       </div>
-    </section>
-    <section>Section 2</section>
-    <section>Section 3</section>
+
+      <div class="question">
+        <h2>What are the plans for roadmap.sh?</h2>
+        <p>
+          Our long-term plan is to make roadmap.sh a go-to place for developers
+          whenever they plan on learning something new. We started with
+          roadmaps, guides, videos and other visual content but we plan on
+          introducing best practices, best-practices for certain tasks, quizzes
+          to test your knowledge and prepare yourself for the interviews,
+          project ideas to work on while following the roadmaps, public profiles
+          to share your progress and interact with the other learners and so on.
+        </p>
+      </div>
+
+      <div>
+        <h2>How is roadmap.sh built?</h2>
+        <p>
+          The website is built with <a href="https://astro.build/">Astro</a> and
+          <a href="https://tailwindcss.com/">Tailwind</a> and is deployed to
+          <a href="pages.github.com">GitHub pages</a>. The project is open-core
+          and the codebase
+          <a href="https://github.com/kamranahmedse/developer-roadmap"
+            >can be found on GitHub</a
+          >.
+        </p>
+      </div>
+
+      <div>
+        <h2>Can I redistribute the content?</h2>
+        <p>
+          No, the license of the content on this website does not allow you to
+          redistribute any of the content on this website anywhere. You can use
+          it for personal use or share the link to the content if you have to
+          but redistribution is not allowed.
+        </p>
+      </div>
+
+      <div>
+        <h2>How can I add a new roadmap?</h2>
+        <p>
+          For new roadmaps, please open an issue with the textual description of
+          the roadmap in the form of bulleted list. Here is an example
+          contribution of a new roadmap. Find more details in the contribution
+          docs.For new roadmaps, please open an issue with the textual
+          description of the roadmap in the form of bulleted list. Here is an
+          <a
+            href="https://github.com/kamranahmedse/developer-roadmap/issues/1387#issue-1329276631"
+            >example contribution of a new roadmap</a
+          >. Find more details in the
+          <a
+            href="https://github.com/kamranahmedse/developer-roadmap/blob/master/contributing.md"
+            >contribution docs</a
+          >.
+        </p>
+      </div>
+
+      <div>
+        <h2>What is the best way to contact you?</h2>
+        <p>
+          Tweet or send me a message
+          <a href="https://x.com/kamrify">@kamrify</a> or
+          <a href="kamranahmed.se@gmail.com">email</a> me at
+          kamranahmed.se@gmail.com. I get lots of messages so apologies in
+          advance if you don't hear back from me soon but I do reply to
+          everyone.
+        </p>
+      </div>
+    </main>
   </body>
 </html>
