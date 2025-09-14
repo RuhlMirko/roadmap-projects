@@ -17,7 +17,7 @@ body {
   margin: 2vh 4vw;
   border: 2px solid black;
   border-radius: 15px;
-  padding: 5vh 15vh;
+  padding: 5vh 35vh 10vh;
 }
 
 .question {
@@ -50,11 +50,16 @@ body {
   border-radius: 15px;
   padding: 0.7rem 0.8rem;
   margin: 1vh 0;
-  max-height: 500px; /* Large enough for your content */
+  max-height: 500px;
   opacity: 1;
 }
 
 a {
   color: inherit;
   font-weight: 800;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
 }
