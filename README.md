@@ -32,3 +32,14 @@ This project will focus on using eventListeners to tell what element is being ta
 
 - Create an accordion component that displays a list of questions or headings
 - When a user clicks a question, its corresponding answer or content section will expand while collapsing any previously opened section
+
+## [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
+
+### Project Description:
+
+The goal of this project is to learn how to use positioning and layout with CSS.
+
+### Project requirements:
+
+- Create testimonial cards
+- Copy the layout as shown in the image as close as possible
