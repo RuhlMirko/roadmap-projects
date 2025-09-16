@@ -72,6 +72,7 @@ This project demands that you know how to use setInterval() and DOM Manipulation
 - Application should display current session type
 - Ensure the app is accesible and visually appealing
 - User can configure each interval time
+- App should track number of work sessions
 <!--
-#TODO: User can configure default interval configuration, app should track number of tracked work sessions
+#TODO: Play sound and warning when rest is up
 >
