@@ -11,10 +11,19 @@ h1 {
   margin: 2rem 5rem;
 }
 
+h2 {
+  padding: 0.5rem 0 1rem;
+}
+
 #timer {
-  text-align: center;
-  margin-top: 20vh;
   font-size: 5rem;
+  text-align: center;
+  padding: 3rem 5rem;
+  margin: 10vh auto 0;
+  width: fit-content;
+  border: 2px solid #333;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.329);
 }
 #timer button {
   all: unset;
@@ -30,6 +39,6 @@ h1 {
   color: white;
 }
 #reset:hover {
-  background-color: #462f2f;
+  background-color: #742222;
   color: white;
 }
