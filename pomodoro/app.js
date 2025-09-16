@@ -9,6 +9,8 @@ let isWorking = true;
 let isResting = false;
 let intervalId;
 let restCycleCount = 0;
+const restCounterDisplay = document.getElementById("rest-counter");
+restCounterDisplay.textContent = `Rest Cycles: ${"✔" * restCycleCount}`;
 
 // User Configuration
 const openConfigButton = document.getElementById("open-config");
@@ -56,6 +58,9 @@ function startWork() {
 function startRest() {
   stateDisplay.textContent = "Rest";
   stateDisplay.style.color = "#4caf50";
+  restCycleCount++;
+  restCounterDisplay.hidden = false;
+  restCounterDisplay.textContent = `Rest Cycles: ${"✔".repeat(restCycleCount)}`;
   let time = restTime * 60;
   let minutes;
   let seconds;
@@ -67,7 +72,6 @@ function startRest() {
     if (time == 0) {
       clearInterval(intervalId);
       startWork();
-      restCycleCount++;
       if (restCycleCount % 4 == 0) {
         clearInterval(intervalId);
         longBreak();
