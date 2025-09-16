@@ -14,7 +14,16 @@ dropBtn.addEventListener("click", () => {
 dropdownItems.forEach((item) => {
   item.addEventListener("click", (e) => {
     e.preventDefault();
+    console.log(item);
     currentSelection = item.innerHTML;
+    item.classList.add("selected");
+    item.innerHTML = `${item.innerHTML} <i class="fa-solid fa-circle-check"></i>`;
+    dropdownItems.forEach((otherItem) => {
+      if (otherItem !== item) {
+        otherItem.classList.remove("selected");
+        otherItem.innerHTML = otherItem.textContent;
+      }
+    });
     dropdownContent.style.display = "none";
     isOpen = false;
     updateBtn();

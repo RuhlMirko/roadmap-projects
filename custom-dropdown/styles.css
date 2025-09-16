@@ -40,6 +40,10 @@ body {
   float: right;
   margin-top: 4px;
 }
+.selected {
+  background-color: #c5c5c5;
+}
+
 #dropdown-content a {
   border-bottom: 1px solid #222;
   padding: 0.7rem 1em 0.5rem;
