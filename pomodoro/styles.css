@@ -8,7 +8,7 @@
 }
 
 h1 {
-  margin: 2rem 5rem;
+  margin: 2rem 5rem 0;
 }
 
 h2 {
@@ -19,7 +19,7 @@ h2 {
   font-size: 5rem;
   text-align: center;
   padding: 3rem 5rem;
-  margin: 10vh auto 0;
+  margin: 5vh auto 0;
   width: fit-content;
   border: 2px solid #333;
   border-radius: 12px;
@@ -41,4 +41,46 @@ h2 {
 #reset:hover {
   background-color: #742222;
   color: white;
+}
+#user-config {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+}
+#user-config button {
+  all: unset;
+  cursor: pointer;
+  padding: 12px;
+  border: 2px solid #333;
+  border-radius: 5px;
+}
+#user-config button:hover {
+  background-color: #333;
+  color: white;
+}
+#config-options {
+  /* display: none; */
+  position: absolute;
+  top: 70px;
+  right: 0;
+  width: 250px;
+  background-color: white;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#config-options label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+#config-options input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
 }
