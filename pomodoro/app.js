@@ -2,11 +2,29 @@ const startButton = document.getElementById("start");
 const resetButton = document.getElementById("reset");
 const timeDisplay = document.getElementById("time");
 const stateDisplay = document.getElementById("state");
-const WORKTIME = 25;
-const REST = 5;
+let workTime = 25;
+let restTime = 5;
 let isWorking = true;
 let isResting = false;
 let intervalId;
+
+const openConfigButton = document.getElementById("open-config");
+const configOptions = document.getElementById("config-options");
+let isConfigOpen = false;
+openConfigButton.addEventListener("click", () => {
+  isConfigOpen = !isConfigOpen;
+  let isOpen = isConfigOpen ? "none" : "block";
+  configOptions.style.display = isOpen;
+});
+
+const userWorkInput = document.getElementById("work");
+const userShortBreakInput = document.getElementById("short-break");
+userWorkInput.addEventListener("change", (e) => {
+  workTime = parseInt(e.target.value);
+});
+userShortBreakInput.addEventListener("change", (e) => {
+  restTime = parseInt(e.target.value);
+});
 
 function startTimer() {
   updateDisplay();
@@ -17,9 +35,10 @@ function updateDisplay() {
 }
 
 function startWork() {
+  configOptions.style.display = "none";
   stateDisplay.textContent = "Work";
   stateDisplay.style.color = "#121212";
-  let time = WORKTIME * 60;
+  let time = workTime * 60;
   let minutes;
   let seconds;
   intervalId = setInterval(() => {
@@ -37,7 +56,7 @@ function startWork() {
 function startRest() {
   stateDisplay.textContent = "Rest";
   stateDisplay.style.color = "#4caf50";
-  let time = REST * 60;
+  let time = restTime * 60;
   let minutes;
   let seconds;
   intervalId = setInterval(() => {
@@ -54,7 +73,7 @@ function startRest() {
 
 function resetTimer() {
   clearInterval(intervalId);
-  timeDisplay.textContent = "00:00";
+  timeDisplay.textContent = "25:00";
   isWorking = true;
   isResting = false;
 }

@@ -60,7 +60,7 @@ h2 {
   color: white;
 }
 #config-options {
-  /* display: none; */
+  display: none;
   position: absolute;
   top: 70px;
   right: 0;
@@ -69,7 +69,7 @@ h2 {
   border: 2px solid #333;
   border-radius: 8px;
   padding: 25px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: -15px 15px 25px rgba(0, 0, 0, 0.637);
 }
 #config-options label {
   display: block;
