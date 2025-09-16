@@ -57,3 +57,12 @@ body {
 #dropdown-content a:hover {
   background: #cac9c9;
 }
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  font-weight: 700;
+}
