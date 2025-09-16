@@ -43,3 +43,19 @@ The goal of this project is to learn how to use positioning and layout with CSS.
 
 - Create testimonial cards
 - Copy the layout as shown in the image as close as possible
+
+## [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
+
+## Project Description:
+
+This Project help practice DOM Manipulation, event handling and responsive interactive elements with JavaScript
+
+## Project Requirements:
+
+- Create custom dropdown menu that lets users select an item from a list
+- The dropdown should have a default state showing a placeholder text
+- It should have an open state revealing all the options
+- When an item is selected:
+  - The dropdown should close
+  - The selected item replaces the text content of the state
+  - The selected item becomes highlited in selection
