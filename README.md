@@ -46,9 +46,9 @@ The goal of this project is to learn how to use positioning and layout with CSS.
 
 ## [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 
-## Project Description:
+### Project Description:
 
-This Project help practice DOM Manipulation, event handling and responsive interactive elements with JavaScript
+This Project helped me practice DOM Manipulation, event handling and responsive interactive elements with JavaScript.
 
 ## Project Requirements:
 
@@ -59,3 +59,18 @@ This Project help practice DOM Manipulation, event handling and responsive inter
   - The dropdown should close
   - The selected item replaces the text content of the state
   - The selected item becomes highlited in selection
+
+## [Pomodor Timer](https://roadmap.sh/projects/pomodoro-timer)
+
+### Project Description:
+
+This project demands that you know how to use setInterval() and DOM Manipulation.
+
+### Project requirements:
+
+- User should be able to start and reset the timer
+- Application should display current session type
+- Ensure the app is accesible and visually appealing
+<!--
+#TODO: User can configure default interval configuration, app should track number of tracked work sessions
+>
