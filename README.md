@@ -1,8 +1,16 @@
 # Projects from roadmap.sh
 
-This repository was made with the intent making websites in inspiration of [roadmap.sh projects](https://roadmap.sh/projects)
+This repository was made with the intent making websites in inspiration of [roadmap.sh projects](https://roadmap.sh/projects). Projects ideas come from the Frontend route Projects section. These range from simple Html static websites to dynamic content websites. The main page serves as an index to all the projects
 
-Projects made in inspiration of roadmap.sh projects
+The most common tools these websites use are:
+- Html
+- Css
+- JavaScript
+- Api calls
+- Dom manipulation
+- Event handling
+- Promises
+
 
 ## [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 
