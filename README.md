@@ -75,4 +75,6 @@ This project demands that you know how to use setInterval() and DOM Manipulation
 - App should track number of work sessions
 <!--
 #TODO: Play sound and warning when rest is up
+Notify user of rest period 
+https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API
 >
