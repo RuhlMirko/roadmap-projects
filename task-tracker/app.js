@@ -29,3 +29,12 @@ taskList.addEventListener("change", function () {
       }
     });
 });
+
+function deleteTask(event) {
+  if (event.target.tagName === "BUTTON") {
+    const listItem = event.target.parentElement;
+    taskList.removeChild(listItem);
+  }
+}
+
+taskList.addEventListener("click", deleteTask);
