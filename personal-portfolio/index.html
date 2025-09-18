@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero" id="home">
+      <h1>Your Name</h1>
+      <p>
+        Welcome to my personal portfolio website. Discover my projects,
+        experience, and articles.
+      </p>
+    </div>
+
+    <main>
+      <section id="projects">
+        <div class="section-title">Projects</div>
+        <ul class="projects">
+          <li><a href="">Pomodoro Python</a></li>
+          <li><a href="../pomodoro/index.html">Pomodoro JavaScript</a></li>
+          <li><a href="../calculator/index.html">Arithmetic Calculator</a></li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <div class="section-title">Work Experience</div>
+        <ul class="experience">
+          <li>
+            Freelance Web Developer – Built websites for local businesses
+            (2023–Present)
+          </li>
+          <li>Open Source Contributor – Various GitHub projects</li>
+          <li>Personal Project – Developed a Pomodoro Timer app</li>
+          <li>Volunteer Developer – Created a website for a community group</li>
+          <li>Hackathon Participant – Placed in top 10 at XYZ Hackathon</li>
+        </ul>
+      </section>
+
+      <section id="education">
+        <div class="section-title">Education</div>
+        <ul class="education">
+          <li>Self-Taught Programmer (2022 – Present)</li>
+          <li>
+            freeCodeCamp – JavaScript Algorithms and Data Structures
+            Certification (2023)
+          </li>
+          <li>Udemy – Modern React with Redux (2024)</li>
+          <li>Codecademy – Full-Stack Engineer Path (2023)</li>
+          <li>Active participant in online coding challenges</li>
+        </ul>
+      </section>
+    </main>
+
+    <section id="Projects">
+      <div class="section-title">Projects</div>
+      <ul class="articles-list">
+        <li><a href="#">Article Title 1</a></li>
+        <li><a href="#">Article Title 2</a></li>
+        <li><a href="#">Article Title 3</a></li>
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="section-title">Contact</div>
+      <button class="copy-btn" onclick="copyEmail()">Copy Email</button>
+      <div class="copied-msg" id="copiedMsg">Copied to clipboard!</div>
+    </section>
+  </body>
+</html>
