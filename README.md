@@ -3,6 +3,7 @@
 This repository was made with the intent making websites in inspiration of [roadmap.sh projects](https://roadmap.sh/projects). Projects ideas come from the Frontend route Projects section. These range from simple Html static websites to dynamic content websites. The main page serves as an index to all the projects
 
 The most common tools these websites use are:
+
 - Html
 - Css
 - JavaScript
@@ -10,7 +11,6 @@ The most common tools these websites use are:
 - Dom manipulation
 - Event handling
 - Promises
-
 
 ## [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 
@@ -83,6 +83,19 @@ This project demands that you know how to use setInterval() and DOM Manipulation
 - App should track number of work sessions
 <!--
 #TODO: Play sound and warning when rest is up
-Notify user of rest period 
+Notify user of rest period
 https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API
->
+-->
+
+## [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
+
+### Project Desription:
+
+This project helps practice array manipulation, event handling and DOM updates using javascript
+
+### Project Requirements:
+
+- Create a task tracker that lets users add new tasks
+- User can mark task as completed
+- User can delete task
+- User can unmark tasks
