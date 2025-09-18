@@ -36,6 +36,7 @@ userShortBreakInput.addEventListener("change", (e) => {
 
 // Timer Functions
 function startWork() {
+  alert("Work session started. Stay focused!");
   clearInterval(intervalId); // Clear any existing intervals
   configOptions.style.display = "none";
   stateDisplay.textContent = "Work";
@@ -56,6 +57,7 @@ function startWork() {
 }
 
 function startRest() {
+  alert("Rest session started. Take a break!");
   stateDisplay.textContent = "Rest";
   stateDisplay.style.color = "#4caf50";
   restCycleCount++;
@@ -81,6 +83,7 @@ function startRest() {
 }
 
 function longBreak() {
+  alert("Long break started. Relax!");
   stateDisplay.textContent = "Long Break";
   stateDisplay.style.color = "#2196f3";
   let time = longBreakTime * 60;
