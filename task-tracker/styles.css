@@ -85,3 +85,9 @@ button:hover {
   background-color: #fff;
   color: #000;
 }
+.completed {
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: #000;
+  color: #6e6e6ea2;
+}
