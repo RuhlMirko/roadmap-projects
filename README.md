@@ -30,6 +30,12 @@ The goal of this project is to help you understand how to use CSS for dynamic UI
 
 This project is not in roadmap.sh but it felt in theme with other projects. The project focuses on using eventListeners and DOM manipulation with an appealing UI.
 
+### Project requirements:
+
+- Create a calculator with numbers and operations buttons
+- Create a dsiplay to show the current value
+- Execute the evaluation of the displayed math operation
+
 ## [Accordion](https://roadmap.sh/projects/accordion)
 
 ### Project Description:
