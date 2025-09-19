@@ -24,8 +24,8 @@ A collection of web projects inspired by [roadmap.sh projects](https://roadmap.s
 To view any project locally:
 
 1. Clone this repository.
-2. Open the desired project folder.
-3. Open `index.html` in your browser.
+2. Open `index.html` in your browser.
+3. Browse any project with the main page.
 
 ## Projects
 
