@@ -109,7 +109,7 @@ _Practice array manipulation and DOM updates._
 
 ---
 
-### [Responsive Personal Portfolio](personal-portfolio/)
+### [Responsive Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
 
 _Practice media queries and responsive design._
 
