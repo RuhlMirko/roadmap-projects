@@ -1,114 +1,123 @@
 # Projects from roadmap.sh
 
-This repository was made with the intent making websites in inspiration of [roadmap.sh projects](https://roadmap.sh/projects). Projects ideas come from the Frontend route Projects section. These range from simple Html static websites to dynamic content websites. The main page serves as an index to all the projects
+A collection of web projects inspired by [roadmap.sh projects](https://roadmap.sh/projects). These range from simple static sites to dynamic web apps. The main page serves as an index to all projects.
 
-The most common tools these websites use are:
+## Table of Contents
 
-- Html
-- Css
+- [Technologies Used](#technologies-used)
+- [Setup](#setup)
+- [Projects](#projects)
+- [Contact](#contact)
+
+## Technologies Used
+
+- HTML
+- CSS
 - JavaScript
-- Api calls
-- Dom manipulation
+- API calls
+- DOM manipulation
 - Event handling
 - Promises
 
-## [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
+## Setup
 
-### Project Description:
+To view any project locally:
 
-This project will focus on mastering CSS positioning, hover effects, and creating visually appealing tooltips without relying on JavaScript.
-The goal of this project is to help you understand how to use CSS for dynamic UI effects.
+1. Clone this repository.
+2. Open the desired project folder.
+3. Open `index.html` in your browser.
 
-### Project requirements:
+## Projects
 
-- Create a tooltip that appears above navigation items when hovered
-- Only HTML and CSS (Try not to use javascript)
+### [Tooltip UI](tooltip-ui/)
 
-## Calculator
+_Master CSS positioning and hover effects to create tooltips without JavaScript._
 
-### Project description:
+**Requirements:**
 
-This project is not in roadmap.sh but it felt in theme with other projects. The project focuses on using eventListeners and DOM manipulation with an appealing UI.
+- Tooltip appears above navigation items on hover
+- Only HTML and CSS
 
-### Project requirements:
+---
 
-- Create a calculator with numbers and operations buttons
-- Create a dsiplay to show the current value
-- Execute the evaluation of the displayed math operation
+### [Calculator](calculator/)
 
-## [Accordion](https://roadmap.sh/projects/accordion)
+_Practice event listeners and DOM manipulation with a calculator UI._
 
-### Project Description:
+**Requirements:**
 
-This project will focus on using eventListeners to tell what element is being targeted and how to use DOM to update the page
+- Number and operation buttons
+- Display for current value
+- Evaluate math operations
 
-### Project requirements:
+---
 
-- Create an accordion component that displays a list of questions or headings
-- When a user clicks a question, its corresponding answer or content section will expand while collapsing any previously opened section
+### [Accordion](accordion/)
 
-## [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
+_Use event listeners and DOM updates to create an interactive accordion._
 
-### Project Description:
+**Requirements:**
 
-The goal of this project is to learn how to use positioning and layout with CSS.
+- Expand/collapse questions
+- Only one section open at a time
 
-### Project requirements:
+---
+
+### [Testimonial Cards](testimonial/)
+
+_Practice CSS positioning and layout with testimonial card designs._
+
+**Requirements:**
 
 - Create testimonial cards
-- Copy the layout as shown in the image as close as possible
+- Match provided layout
 
-## [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
+---
 
-### Project Description:
+### [Custom Dropdown](custom-dropdown/)
 
-This Project helped me practice DOM Manipulation, event handling and responsive interactive elements with JavaScript.
+_Practice DOM manipulation and interactive UI elements._
 
-## Project Requirements:
+**Requirements:**
 
-- Create custom dropdown menu that lets users select an item from a list
-- The dropdown should have a default state showing a placeholder text
-- It should have an open state revealing all the options
-- When an item is selected:
-  - The dropdown should close
-  - The selected item replaces the text content of the state
-  - The selected item becomes highlited in selection
+- Custom dropdown menu
+- Placeholder, open/close states
+- Highlight selected item
 
-## [Pomodor Timer](https://roadmap.sh/projects/pomodoro-timer)
+---
 
-### Project Description:
+### [Pomodoro Timer](pomodoro/)
 
-This project demands that you know how to use setInterval() and DOM Manipulation.
+_Practice setInterval and DOM manipulation for a timer app._
 
-### Project requirements:
+**Requirements:**
 
-- User should be able to start and reset the timer
-- Application should display current session type
-- Ensure the app is accesible and visually appealing
-- User can configure each interval time
-- App should track number of work sessions
+- Start/reset timer
+- Display session type
+- Configurable intervals
+- Track work sessions
 
-## [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
+---
 
-### Project Desription:
+### [Task Tracker](task-tracker/)
 
-This project helps practice array manipulation, event handling and DOM updates using javascript
+_Practice array manipulation and DOM updates._
 
-### Project Requirements:
+**Requirements:**
 
-- Create a task tracker that lets users add new tasks
-- User can mark task as completed
-- User can delete task
-- User can unmark tasks
+- Add, mark, unmark, and delete tasks
 
-## [Responsive Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+---
 
-### Project Description:
+### [Responsive Personal Portfolio](personal-portfolio/)
 
-A simple portfolio website made to practice media queries.
+_Practice media queries and responsive design._
 
-### Project Requirements:
+**Requirements:**
 
-- Create a simple website with different sections
-- Create a navigation bar
-- Website should resize accordingly in smaller viewports
+- Multi-section website
+- Responsive navigation
+
+## Contact
+
+For questions or feedback, reach out via [GitHub](https://github.com/RuhlMirko) or at ruhlmirkojoel@gmail.com.
