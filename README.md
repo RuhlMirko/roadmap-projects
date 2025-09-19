@@ -87,11 +87,6 @@ This project demands that you know how to use setInterval() and DOM Manipulation
 - Ensure the app is accesible and visually appealing
 - User can configure each interval time
 - App should track number of work sessions
-<!--
-#TODO: Play sound and warning when rest is up
-Notify user of rest period
-https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API/Using_the_Notifications_API
--->
 
 ## [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 
@@ -105,3 +100,15 @@ This project helps practice array manipulation, event handling and DOM updates u
 - User can mark task as completed
 - User can delete task
 - User can unmark tasks
+
+## [Responsive Personal Portfolio](https://roadmap.sh/projects/portfolio-website)
+
+### Project Description:
+
+A simple portfolio website made to practice media queries.
+
+### Project Requirements:
+
+- Create a simple website with different sections
+- Create a navigation bar
+- Website should resize accordingly in smaller viewports
