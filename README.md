@@ -29,7 +29,7 @@ To view any project locally:
 
 ## Projects
 
-### [Tooltip UI](tooltip-ui/)
+### [Tooltip UI](https://roadmap.sh/projects/tooltip-ui)
 
 _Master CSS positioning and hover effects to create tooltips without JavaScript._
 
@@ -52,7 +52,7 @@ _Practice event listeners and DOM manipulation with a calculator UI._
 
 ---
 
-### [Accordion](accordion/)
+### [Accordion](https://roadmap.sh/projects/accordion)
 
 _Use event listeners and DOM updates to create an interactive accordion._
 
@@ -63,7 +63,7 @@ _Use event listeners and DOM updates to create an interactive accordion._
 
 ---
 
-### [Testimonial Cards](testimonial/)
+### [Testimonial Cards](https://roadmap.sh/projects/testimonial-cards)
 
 _Practice CSS positioning and layout with testimonial card designs._
 
@@ -74,7 +74,7 @@ _Practice CSS positioning and layout with testimonial card designs._
 
 ---
 
-### [Custom Dropdown](custom-dropdown/)
+### [Custom Dropdown](https://roadmap.sh/projects/custom-dropdown)
 
 _Practice DOM manipulation and interactive UI elements._
 
@@ -86,7 +86,7 @@ _Practice DOM manipulation and interactive UI elements._
 
 ---
 
-### [Pomodoro Timer](pomodoro/)
+### [Pomodoro Timer](https://roadmap.sh/projects/pomodoro-timer)
 
 _Practice setInterval and DOM manipulation for a timer app._
 
@@ -99,7 +99,7 @@ _Practice setInterval and DOM manipulation for a timer app._
 
 ---
 
-### [Task Tracker](task-tracker/)
+### [Task Tracker](https://roadmap.sh/projects/task-tracker-js)
 
 _Practice array manipulation and DOM updates._
 
