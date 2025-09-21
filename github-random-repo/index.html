@@ -3,12 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
     />
+    <script src="app.js" defer></script>
     <title>Github random repository</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>GitHub Repository Finder</h1>
+      <select name="" id="">
+        <option value="">JavaScript</option>
+      </select>
+      <div id="repo-info">
+        <h2 id="repo-name">Repository Name</h2>
+        <p id="repo-description">Repository Description</p>
+        <div>
+          <span class="lang">JavaScript</span>
+          <span class="stars">24k</span>
+          <span class="forks">1,500</span>
+          <span class="issues">120</span>
+        </div>
+        <a id="repo-link" href="#" target="_blank">View on GitHub</a>
+      </div>
+      <button>Refresh</button>
+    </div>
+  </body>
 </html>
