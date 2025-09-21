@@ -46,8 +46,7 @@ select {
 }
 select:focus {
   outline: none;
-  border-color: #9900ff;
-  color: #9900ff;
+  border-color: #6c01b3;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 option {
